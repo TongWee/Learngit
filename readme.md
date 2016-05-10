@@ -10,7 +10,7 @@
 7. `git config --globle user.name "[Yourname]"`
 8. `git config --globle user.email "[Your Email Address]"`
 
-## Tips
+###  Tips
 1. 可以添加目录，会将该目录下所有文件进行add
 2. 对修改要进行提交才能生效，-a 参数提交所有修改
 3. 将修改提交到，已经与远程代码库连接的本地仓库
@@ -18,3 +18,16 @@
 5. 在当前目录新建仓库
 6. 与github远程代码库进行连接，不能添加空的本地仓库
 7. 必须与github用户名和邮箱修改一致，才能在主页显示提交
+
+## GDB
+1. `g++ [filename] -o [a.out] -g`
+2. `gdb`
+3. `file [a.out]`
+4. `b [line or function] //breakpoint at line or function`
+5. `d // remove breakpoint`
+6. `r // run`
+7. `s // step into`
+8. `n // step over`
+9. `c // continue`
+10 `p [varname] // watch var value` 
+11. `q // quit`
