@@ -29,5 +29,5 @@
 7. `s // step into`
 8. `n // step over`
 9. `c // continue`
-10 `p [varname] // watch var value` 
+10. `p [varname] // watch var value` 
 11. `q // quit`
